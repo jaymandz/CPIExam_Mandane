@@ -2,12 +2,10 @@
 
 @section('body')
 <div class="mb-3">
-    <a href="/posts/index" class="btn btn-secondary">
-        <span class="bi bi-arrow-90deg-left"></span>
+    <a href="posts/index" class="btn btn-secondary">
         View all posts
     </a>
     <button class="btn btn-primary" form="postForm" type="submit">
-        <span class="bi bi-save"></span>
         Save
     </button>
 </div>
